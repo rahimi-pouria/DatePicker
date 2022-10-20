@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
   .header{
-    background-image: url("./assets/img/back.jpg");
+    background-image: url("../assets/img/back.jpg");
     display: flex;
     background-size: cover;
     background-position: center;

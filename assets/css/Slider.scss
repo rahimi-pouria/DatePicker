@@ -1,0 +1,29 @@
+.vueperslides__parallax-wrapper{
+  padding-bottom: 3% !important;
+  &::before{
+    box-shadow: unset !important;
+  }
+  &::after{
+    box-shadow: unset !important;
+  }
+}
+.vueperslides__track{
+  position: unset !important;
+  overflow: unset !important;
+}
+
+.vueperslides__track{
+    position: unset !important;
+    overflow: unset !important;
+}
+.vueperslides__parallax-wrapper{
+    min-height: 500px;
+    padding-top: 40px;
+    padding-bottom: 3% !important;
+    &::after{
+        content: unset !important;
+    }
+    &::before{
+        content: unset !important;
+    }
+}

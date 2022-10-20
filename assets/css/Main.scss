@@ -1,0 +1,60 @@
+p{
+    margin: 0 !important;
+}
+*{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazir';
+}
+body{
+    direction: rtl;
+    overflow-x: hidden !important;
+    /*background-image: url('../assets/images/back.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: unset !important;
+    padding: 0 140px;
+}
+.container-panel{
+  max-width: unset !important;
+  padding: 0 340px;
+}
+.container-profile{
+  max-width: unset !important;
+  padding: 0 140px;
+}
+.PanelCards:nth-child(1),
+.PanelCards:nth-child(2),
+.PanelCards:nth-child(3){
+  border-radius: 12px;
+  padding: 45px 20px;
+}
+.PanelCards:nth-child(4),
+.PanelCards:nth-child(5){
+  border-radius: 12px;
+  padding: 30px 20px;
+}
+.panelSidbar{
+  border-radius: 12px;
+  padding: 30px 12px;
+}
+.container-profile{
+  background-image: url("@/assets/img/back-sign-up.png");
+  background-size: cover;
+  background-position: center;
+  padding: 84px;
+}
+//  responsive
+@media only screen and (max-width:1024px) {
+    .container, .container-panel, .container-profile{
+        padding: 20px !important;
+    }
+}

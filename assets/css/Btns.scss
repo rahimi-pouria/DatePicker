@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+  color: #000000 !important;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.btn-danger{
+  background-color: $red;
+}
+.btn-secondary{
+  background: $HoverGray;
+  color: #000000;
+}
+button{
+    transition: 300ms !important;
+    border: none;
+    align-items: center !important;
+}
+.redirect-btn{
+    color: $blue;
+    background-color: white;
+    border-radius: 12px;
+    padding: 8px 12px;
+    max-width: max-content;
+    transition: 500ms;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    &:hover{
+        color: white;
+        background-color: $blue;
+    }
+}

@@ -1,0 +1,26 @@
+.nav-item {
+  .nav-link {
+    background: none;
+    border: 0;
+    border-radius: 10px;
+    width: 60px;
+    height: 28px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000 !important;
+  }
+}
+.nav-pills .nav-link.active, .nav-pills > .nav-link {
+  background-color: #007bff;
+  color: #FFFFFF !important;
+  width: 60px;
+  height: 28px;
+}
+.card,
+.card-header {
+  background: none !important;
+  border: 0px !important;
+}

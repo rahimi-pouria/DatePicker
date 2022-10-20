@@ -1,0 +1,27 @@
+// all svg classes stored here
+// class names like f-svg means a class that append a fill property to that svg element
+// class names like str-color means a class that append a stroke property to that svg element
+.f-star{
+  fill: $star;
+}
+
+
+.img98{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+.like{
+  cursor: pointer;
+  fill: transparent;
+  stroke: black;
+  &:hover{
+    // fill: $red;
+    stroke: $red;
+  }
+}
+.like-active{
+  fill: $red !important;
+  stroke: $red !important
+  ;
+}
